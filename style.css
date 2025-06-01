@@ -1,440 +1,285 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>LiteValues</title>  
-<link rel="stylesheet"href="style.css"/>
-</head>
-<body>
-<header class="slider">
-<h2 class="hotitem">🔥 HOT ITEMS 🔥</h2>
-<marquee class="hotitemf">
-<div class="slides">
-<img class="joj" src="https://supremevaluelist.com/media/mm2ancients/Niks_Scythe.png"width="50px" height="50px" alt="1">
-<img class="joj" src="https://supremevaluelist.com/media/mm2ancients/Gingerscope.png"width="50px" height="50px" alt="2">
-<img class="joj" src="https://supremevaluelist.com/media/mm2ancients/Celestial.png"width="50px" height="50px" alt="3">
-<img class="joj" src="https://supremevaluelist.com/media/mm2godlies/Evergun.png"width="50px" height="50px" alt="4">
-<img class="joj" src="https://supremevaluelist.com/media/mm2godlies/Darksword.png"width="50px" height="50px" alt="5">
-<img class="joj" src="https://supremevaluelist.com/media/mm2godlies/TravelersGun.png"width="50px" height="50px" alt="5">
-<img class="joj" src="https://supremevaluelist.com/media/mm2ancients/Swirly_Axe.png"width="50px" height="50px" alt="5">
-<img class="joj" src="https://supremevaluelist.com/media/mm2godlies/Turkey.png"width="50px" height="50px" alt="5">
-</div>
-</marquee>
-<h1 class="qwerty">L i t e V a l u e s</h1>
-<nav class="knopka"><a href="#specialtier">Special Tier</a><a href="#tier2">Tier 1</a><a href="#tier1">Tier 2</a><a href="#tier3">Tier 3</a></nav> 
+body{
+    background-image:linear-gradient(#202020,#333333,#141414);
+    color:white;
+    font-family:'Segoe UI',Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+table {
+    margin-left:10px;
+}
+
+
+td {
+    background-color:#1a1a1a;
+    padding-left:40px;
+    padding-right:40px;
+    border:5px solid #000000;
+    border-radius:12px;
+    
+}
+
+
+
+td:hover {
+    transition:0.7s ease-out;
+    background-color:#333333;
+}
+
+tr {
+    border:5px solid rgb(23, 23, 23);
+}
+
+
+h1 {
+    margin-right:5%;
+    margin-left:5%;
+    background-color:#1a1a1a;
+    padding:15px;
+    border-radius:25px;
+    
+}
+
+.iop:hover {
+    transition:1s linear;
+    border:2px solid #3a3a3a;
+}
+
+h1 img {
+    vertical-align:middle;
+    padding-right:15px;
+}
+
+nav a {
+    text-decoration:none;
+    margin-right:20px;
+    color:white;
+    border:2px solid grey;
+    border-radius:7px;
+    padding:5px 3px;
+   
+}
+
+html {
+    scroll-behavior:smooth;
+}
+
+span{
+    font-size:48px;
+    border-bottom:1px solid white;
+    font-weight:700;
+    margin-bottom:6px;
+    
+}
+p {
+    line-height:150%;
+    font-size: 25px;
+}
+
+
+p img{
+     margin-right:5px;
         
-</header>
-<main>
-<h1 class="iop" id="specialtier" ><img src="https://supremevaluelist.com/media/mm2ancients/Niks_Scythe.png" width="40px" height="40px">Special Tier</h1>
-<table>
-                            <tr>
-                            <td><img src="https://supremevaluelist.com/media/mm2ancients/Niks_Scythe.png" width="150px" height="150px"></td>
-                            <td><span>Nik's Scythe</span><br/>
-                            <p>  
-                            Value - Priceless<br/>
-                            Ranged Value - [N/A]<br/>
-                            Stability - Overpaid For Item Stability<br/>
-                            Demand - 11 Rarity - 11<br/></p></td>
-                            </tr>
-                            </table>
-                    <h1 class="qwe" id="tier2"><img src="https://supremevaluelist.com/media/mm2ancients/TravelersAxe.png" width="40px" height="40px">Tier 1</h1>
-                    <table>
+}
 
-                    
-                        <tr>
-                        <td><img src="https://supremevaluelist.com/media/mm2ancients/Gingerscope.png">
-                        </td>
-                                
-                        <td><p><span>Gingerscope</span><br/>
-                        Value - 8,700 <br/>  
+.knopka {
+display:flex;
+justify-content:space-between;
 
-                        Ranged Value - [8,000-8,800]<br/>
-                        Stability - Fluctuating<br/>
-                        Demand - 7 Rarity - 4<br/></p>
-                        </td>
-                        </tr>
-                            <tr>
-                            <td><img src="https://supremevaluelist.com/media/mm2ancients/TravelersAxe.png">
-                            </td>
-                            <td><p><span>Traveler's Axe</span> <br/>
-                            Value - 6,000<br/>   
+}
 
-                            Ranged Value - [N/A]<br/>
-                            Stability - Stable<br/>
-                            Demand - 7 Rarity - 5<br/> </p></td> </tr>
-    <tr>
-    <td><img src="https://supremevaluelist.com/media/mm2ancients/Celestial.png"></td>
-    <td><p><span>Celestial</span> <br/>
-    Value - 2,500   <br/>
 
-    Ranged Value - [2,500 - 3,000]<br/>
-    Stability - Overpaid For Item Stability<br/>
-    Demand - 7 Rarity - 4<br/></p></td>              
-    </tr>
-<tr>
-<td><img src="https://supremevaluelist.com/media/mm2ancients/Harvester.png">
-</td>
-<td><p><span>Harvester</span><br/>
-Value - 750 <br/>  
+.knopka a {
+flex:1;
+margin:10px;
+padding:10px;
+font-size:32px;
+}
+.knopka a:hover {
+ transform: scale(1.2)
+    
+}
 
-Ranged Value - [750 - 775]<br/>
-Stability - Fluctuating<br/>
-Demand - 5 Rarity - 3<br/></p>
-</td>
-</tr>
-        <tr>
-        <td><img src="https://supremevaluelist.com/media/mm2ancients/Icepiercer.png">
-        </td>
-        <td><p><span>icepiercer</span><br/>
-        Value - 725<br/>   
+.iop {
+ font-size:56px;
+}
 
-        Ranged Value - [725 - 750]<br/>
-        Stability - Fluctuating<br/>
-        Demand - 5 Rarity - 3<br/></p>
-        </td>
-        </tr>
-<tr>
-<td><img src="https://supremevaluelist.com/media/mm2ancients/Vampires_Axe.png">
-</td>
-<td><p><span>Vampire's Axe</span><br/>
-Value - 490  <br/> 
+.iop:hover {
+    text-shadow:3px 2px 5px #ffbb28;
+    transition:1s ease-out;
+}
+.qwe {
+    font-size:56px;
+}
 
-Ranged Value - [475 - 525]<br/>
-Stability - Stable<br/>
-Demand - 5 Rarity - 3<br/></p>
-</td>
-</tr>
+.qwe:hover{
+    text-shadow:3px 2px 5px #fa3131;
+ transition:1s linear;
+    border:2px solid #3a3a3a;
+}
 
-<tr>
-<td> <img src="https://supremevaluelist.com/media/mm2ancients/Swirly_Axe.png">
-</td>
-                            
-<td><p><span>Swirly Axe</span><br/>
-Value - 175 <br/> 
+.zxc {
+    font-size:56px;
+}
+.zxc:hover {
+text-shadow:3px 2px 5px #9b00ff;
+     transition:1s linear;
+    border:2px solid #3a3a3a;
+}
 
-Ranged Value - [N/A]<br/>
-Stability - Fluctuating<br/>
-Demand - 4 Rarity - 3<br/></p>
-                            </td>
-                        </tr>
-                    </table>
-                    <h1 class="zxc" id="tier1"><img src="https://supremevaluelist.com/media/mm2ancients/Elderwood_Scythe.png" width="40px" height="40px">Tier 2</h1>
-<table>           
-<tr>
-<td><img src="https://supremevaluelist.com/media/mm2ancients/Icebreaker.png">
-</td>                            
-<td>
-<p> <span>Icebreaker</span><br/>
-Value - 120<br/>   
+.fgh {
+    font-size:56px;
+}
 
-Ranged Value - [N/A]<br/>
-Stability - Stable Item Stability<br/>
-Demand - 3 Rarity - 2<br/> </p>  </td>
-</tr>
-<tr>
-<td><img src="https://supremevaluelist.com/media/mm2ancients/Elderwood_Scythe.png">
-</td>
-<td><p><span>Elderwood Scythe</span><br/>
-Value - 90   <br/>
+.fgh:hover {
+text-shadow:3px 2px 5px #3ff0ff;
+    transition:1s linear;
+    border:2px solid #3a3a3a;
+}
 
-Ranged Value - [N/A]<br/>
-Stability - Stable Item Stability<br/>
-Demand - 3 Rarity - 2 <br/></p> </td>               
-</tr>
-<tr>
-<td><img src="https://supremevaluelist.com/media/mm2ancients/Batwing.png">
-</td>
-<td><p><span>Batwing</span><br/>
-Value - 75   <br/>
 
-Ranged Value - [75 - 77]<br/>
-Stability - Doing Well Item Stability<br/>
-Demand - 3 Rarity - 2<br/></p>
-</td>
-</tr>
-<tr>
-<td><img src="https://supremevaluelist.com/media/mm2ancients/Hallowscythe.png">
-</td>
-<td><p><span>Hallowscythe</span><br/>
-Value - 55 <br/>  
+header {
+    background-color: rgb(26,26,26);
+    padding:20px;
+    border-radius:24px;
+    
+}
 
-Ranged Value - [N/A]<br/>
-Stability - Stable Item Stability<br/>
-Demand - 2 Rarity - 2<br/></p>
-</td>
-</tr>
-<tr>
-<td><img src="https://supremevaluelist.com/media/mm2ancients/Logchopper.png">
-</td>
-<td><p><span>Logchopper</span><br/>
-Value - 30   <br/>
 
-Ranged Value - [N/A]<br/>
-Stability - Stable Item Stability<br/>
-Demand - 2 Rarity - 2<br/></p>
-</td>
-</tr>
+.godlys:hover {
+    transition:1s linear;
+    border:2px solid #3a3a3a;
+    text-shadow:3px 2px 5px #3ff0ff;
+}
 
-<tr>
-<td> <img src="https://supremevaluelist.com/media/mm2ancients/Icewing.png">
-</td>
-                            
-<td><p><span>Icewing</span><br/>
-Value - 4<br/>   
+.qwerty {
+    opacity:0.5;
+    position:relative;
+    text-align: center;
+    font-size: 32px;
+}
 
-Ranged Value - [4 - 7]<br/>
-Stability - Doing Well Item Stability<br/>
-Demand - 2 Rarity - 1<br/></p>
-</td>
-</tr>
-</table>
-<h1 class="godlys"><img src="https://supremevaluelist.com/media/mm2godlies/Sakura.png" width="40px" height="40px">Godlys </h1>
-<h1 class="fgh" id="tier3"><img src="https://supremevaluelist.com/media/mm2godlies/Australis.png" width="40px" height="40px">Tier 3</h1>
-<table>
-<tr>
-<td><img src="https://supremevaluelist.com/media/mm2godlies/TravelersGun.png"></td>
-<td><p><span>Traveler's Gun</span><br/>
-Value - 3,300 <br/>  
+.qwerty::before {
+    content: '';
+    background-image: url(https://supremevaluelist.com/media/mm2ancients/Vampires_Axe.png);
+    width:90px;
+    height:85px;
+    position:absolute;
+    background-size:cover;
+    left:0%;
+}
 
-Ranged Value -[N/A]<br/>
-Stability - Overpaid For Item Stability<br/>
-Demand - 7 Rarity - 4<br/></p></td>
-</tr>
-<tr>
-<td><img src="https://supremevaluelist.com/media/mm2godlies/Constellation.png"></td>
-<td><p><span>Constellation</span> <br/>
-Value - 2,500   <br/>
+.qwerty::after {
+    content: '';
+        background-image: url(https://supremevaluelist.com/media/mm2ancients/Vampires_Axe.png);
+        width:90px;
+        height:85px;
+        position:absolute;
+        background-size:cover;
+        right:0%;
+       
+}
 
-Ranged Value - [2,500 - 3,000]<br/>
-Stability - Overpaid For Item Stability<br/>
-Demand - 8 Rarity - 7<br/></p></td>
-</tr>
-                    
-                            
-                               
-<tr>
-<td><img src="https://supremevaluelist.com/media/mm2godlies/Evergun.png"></td>
-<td><p><span>Evergun</span><br/>
-Value - 1,800<br/>   
+.qwerty:hover {
+opacity:1;
+}
 
-Ranged Value - [1,800 - 1,850]<br/>
-Stability - Doing Well Item Stability<br/>
-Demand - 7 Rarity - 4<br/>  </p>      </td>
-</tr>
-<tr>
-<td><img src="https://supremevaluelist.com/media/mm2godlies/Turkey.png"></td>
-<td><p><span>Turkey</span><br/>
-Value - 1,500  <br/> 
+.slides img {
+margin-right:50px;
+}  
 
-Ranged Value - [1,500 - 1,550]<br/>
-Stability - Doing Well Item Stability<br/>
-Demand - 6 Rarity - 3<br/></p></td>
-</tr>
-<tr>
-<td><img src="https://supremevaluelist.com/media/mm2godlies/Evergreen.png"></td>
-<td><p><span>Evergreen</span><br/>
-Value - 1,050   <br/>
 
-Ranged Value -  [1,050 - 1,100]<br/>
-Stability - Doing Well Item Stability<br/>
-Demand - 6 Rarity - 3<br/></p></td>
+.hotitem {
+    text-align:center;
+    font-size:35px;
+    animation:pulse 1s infinite;
+}
 
-</tr>
-<tr>
-<td><img src="https://supremevaluelist.com/media/mm2godlies/Bauble.png"></td>
-<td><p><span>Bauble</span> <br/>
-Value - 800   <br/>
+.hotitem:hover {
 
-Ranged Value - [800 - 1,100]<br/>
-Stability - Overpaid For Item Stability<br/>
-Demand - 6 Rarity - 5<br/></p></td>
-</tr>
-<tr>
-<td><img src="https://supremevaluelist.com/media/mm2godlies/Blossom.png"></td>
-<td><p><span>Blossom</span><br/>
-Value - 560   <br/>
+}
 
-Ranged Value -  [560 - 575]  <br/>
-Stability - Doing Well Item Stability <br/>
-Demand - 6 Rarity - 3 <br/></p></td>
-</tr>
-<tr>
-<td><img src="https://supremevaluelist.com/media/mm2godlies/Sakura.png"></td>
-<td><p><span>Sakura</span><br/>
-Value - 550<br/>   
+@keyframes pulse{
+ 0% {color: red;}
+ 50% {color: orange;}
+ 100% {color: red;}
+}
 
-Ranged Value - [550 - 565<br/>
-Stability - Doing Well Item Stability<br/>
-Demand - 6 Rarity - 3<br/>  </p> </td>
-</tr>
-                                                
-<tr>
-<td><img src="https://supremevaluelist.com/media/mm2godlies/Darkshot.png"></td>
-<td><p><span>Darkshot</span><br/>
-Value - 500   <br/>
+.hotitemf {
+border:2px solid #333333;
+border-radius:25px; 
+}
 
-Ranged Value - [N/A]<br/>
-Stability - Stable Item Stability<br/>
-Demand - 6 Rarity - 3<br/></p></td>
-</tr>
-<tr>
-<td><img src="https://supremevaluelist.com/media/mm2godlies/Darksword.png"></td>
-<td><p><span>Darksword</span><br/>
-Value - 495   <br/>
+.hotitemf:hover {
+border:2px solid #888888;
+}
 
-Ranged Value - [N/A]<br/>
-Stability - Stable Item Stability<br/>
-Demand - 6 Rarity - 3<br/>  </p>     </td>
- </tr>
-                <tr>
-                <td><img src="https://supremevaluelist.com/media/mm2godlies/Australis.png"></td>
-                <td><p><span>Australis</span> <br/>
-                Value - 375   <br/>
 
-                Ranged Value - [375 - 450]<br/>
-                Stability - Overpaid For Item Stability<br/>
-                Demand - 7 Rarity - 5<br/></p></td>
-                                    </tr>
-                                    <tr>
-                                    <td><img src="https://supremevaluelist.com/media/mm2godlies/Borealis.png"></td>
-                                    <td><p><span>Borealis</span> <br/>
-                                    Value - 375   <br/>
+.tut {
+color:white;
+}
 
-                                    Ranged Value - [375 - 450]<br/>
-                                    Stability - Overpaid For Item Stability<br/>
-                                    Demand - 7 Rarity - 5<br/></p></td>
-                                    </tr>
-                                    <tr>
-                                    <td><img src="https://supremevaluelist.com/media/mm2godlies/Vampires_Gun.png"></td>
-                                    <td><p><span>Vampire's Gun</span><br/>
-                                    Value - 510  <br/>
+.tut:hover {
+color:#555555;
+}
 
-                                    Ranged Value - [N/A]<br/>  
-                                    Stability - Stable<br/>
-                                    Demand - 6 Rarity - 3<br/></p></td>
-                                 </tr>
-                                <tr>
-                                <td><img src="https://supremevaluelist.com/media/mm2godlies/Bat.png"></td>
-                                <td><p><span>Bat</span><br/>
-                                Value - 450   <br/>
 
-                                Ranged Value - [N/A]<br/>
-                                Stability - Stable Item Stability<br/>
-                                Demand - 6 Rarity - 3<br/></p></td>
-                        </tr>
-                        <tr>
-                        <td><img src="https://supremevaluelist.com/media/mm2godlies/Rainbow_Gun.png"></td>
-                        <td><p><span>Rainbow Gun</span><br/>
-                        Value - 200   <br/>
+.pas  {
+position:relative;
+display:inline-block;
+z-index: 1;
+}
 
-                        Ranged Value - [N/A]<br/>
-                        Stability - Stable Item Stability<br/>
-                        Demand - 4 Rarity - 3<br/></p></td>
-                            </tr>
-                            <tr>
-                             <td><img src="https://supremevaluelist.com/media/mm2godlies/Rainbow_Knife.png"></td>
-                            <td><p><span>Rainbow</span><br/>
-                            Value - 195   <br/>
+.pas::before {
+    content: "";
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:black;
+    opacity:0;
+    z-index: -1;
+    transition:opacity 0.25s ;
+}
 
-                            Ranged Value - [N/A]<br/>
-                            Stability - Stable Item Stability<br/>
-                            Demand - 4 Rarity - 3<br/></p></td>
-                            </tr>
-                <tr>
-                <td><img src="https://supremevaluelist.com/media/mm2godlies/Candy.png"></td>
-                <td><p><span>Candy</span><br/>
-                Value - 190   <br/>
+.pas:hover::before {
+    opacity:1;
+}
 
-                Ranged Value - [N/A]<br/>
-                Stability - Stable Item Stability<br/>
-                Demand - 4 Rarity - 2<br/></p></td>
-                </tr>
-<tr>
-<td><img src="https://supremevaluelist.com/media/mm2godlies/Soul.png"></td>
-<td><p><span>Soul</span><br/>
-Value - 175   <br/>
+.mnb {
+width:40px;
+height:40px;
+margin-right:15px;
+}
 
-Ranged Value - [175 - 190]<br/>
-Stability - Doing Well<br/>
-Demand - 5 Rarity - 3<br/></p></td>  
-</tr>
-<tr>
-<td><img src="https://supremevaluelist.com/media/mm2godlies/Spirit.png"></td>
-<td><p><span>Spirit</span><br/>
-Value - 175   <br/>
+.mnb:hover {
+opacity:0.5;
+}
 
-Ranged Value - [175 - 190]<br/>
-Stability - Doing Well<br/>
-Demand - 5 Rarity - 3 <br/></p></td>
-</tr>
-<tr>
-<td><img src="https://supremevaluelist.com/media/mm2godlies/Ocean.png"></td>
-<td><p><span>Ocean</span><br/>
-Value - 150   <br/>
+.touch {
+position:fixed;
+bottom:0px;
+right:0px;
+font-size:19px;
+background-color:#202020;
+color:white;
+border:3px solid #404040;
+border-radius:19px 0 0 0;
+padding-top:7px;
+}
 
-Ranged Value - [N/A]<br/>
-Stability - Stable Item Stability<br/>
-Demand - 4 Rarity - 3<br/></p></td>
-</tr>
-<tr>
-<td><img src="https://supremevaluelist.com/media/mm2godlies/Swirly_Gun.png"></td>
-<td><p><span>Swirly Gun</span><br/>
-Value - 155  <br/> 
+.joj {
+width:100px;
+height:100px;
+}
 
-Ranged Value - [N/A]<br/>
-Stability - Stable Item Stability<br/>
-Demand - 4 Rarity - 3<br/></p></td>
-</tr>
-<tr>
-<td><img src="https://supremevaluelist.com/media/mm2godlies/Waves.png"></td>
-<td><p><span>Waves</span> <br/>
-Value - 145  <br/> 
 
-Ranged Value - [N/A]<br/>
-Stability - Stable Item Stability<br/>
-Demand - 4 Rarity - 3<br/></p></td>
-</tr>
-<tr>
-<td><img src="https://supremevaluelist.com/media/mm2godlies/Makeshift.png" >
-</td>
-<td><p><span>Makeshift</span><br/>
-Value - 130   <br/>
+span  {
+font-size:30px;
+}
 
-Ranged Value - [N/A]<br/>
-Stability - Stable Item Stability<br/>
-Demand - 3 Rarity - 3<br/></p></td>
-</tr>
-<tr>
-<td><img src="https://supremevaluelist.com/media/mm2godlies/Watergun.png"></td>
-<td><p><span>Watergun</span><br/>
-Value - 130 <br/>  
-
-Ranged Value - [N/A]<br/>
-Stability - Stable Item Stability<br/>
-Demand - 3 Rarity - 3<br/></p></td>
-</tr>
-<tr>
-<td><img src="https://supremevaluelist.com/media/mm2godlies/Heartblade.png"></td>
-<td><p><span>Heartblade</span><br/>
-Value - 125  <br/> 
-
-Ranged Value - [N/A]<br/>
-Stability - Stable Item Stability<br/>
-Demand - 3 Rarity - 2<br/></p></td>
-</tr>
-</table>
-</main>
-<footer>
-<p class="pas">
-Site Created and Managed by <a class="tut" href="https://lite-values.netlify.app/">Chicken Jockey</a><br/>
-Copyright © 2025 Litevalues Values</p><br/>
-<img class="mnb" src="https://supremevaluelist.com/media/icons/Roblox.png">
-<img class="mnb" src="https://supremevaluelist.com/media/icons/Discord.png">
-<img class="mnb" src="https://supremevaluelist.com/media/icons/YouTube.png">
-<img class="mnb" src="https://supremevaluelist.com/media/icons/Twitter.png">
-<a  href="https://logikaschool.com/"><img class="mnb" src="https://static.tildacdn.one/tild6363-6633-4162-b235-633564633464/_.svg"></a>
-</footer>
-<button class="touch"><span class="roro">Your Inventory Value:</span><br/> 0 Clear  </button>
-
-</body>
-</html>
-
+.roro {
+font-size:26px;
+}
+    
